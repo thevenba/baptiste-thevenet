@@ -1,0 +1,40 @@
+.project-wrapper {
+    position: relative;
+    animation: project .5s ease-in-out;
+}
+
+@keyframes project {
+    0% {top : 100%}
+    100% {top : 0}
+}
+
+.project-wrapper h2 {
+    color: #b25968;
+}
+
+.back-top-index {
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    transition: all .25s ease-in-out;
+}
+
+.back-top-index:hover {
+    text-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.banner {
+    width: 50%;
+    margin: auto;
+    padding: 64px 0;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.project-img img {
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
